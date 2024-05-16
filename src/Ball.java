@@ -1,6 +1,6 @@
 public class Ball {
-    private String color;
-    private double weight;
+    private final String color;
+    private final double weight;
 
     public Ball(String color, double weight) {
         this.color = color;
